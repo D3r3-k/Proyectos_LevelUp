@@ -22,12 +22,11 @@ var obj3 = {
             keys.push(ordenado[key][0])
             values.push(ordenado[key][1])
         }
-        console.log("\n> Original");
+        console.log("> Original");
         console.log(obj);
         console.log("> Separado  y Ordenado");
         console.log(keys);
         console.log(values);
-        console.log();
     }
 
     separar(obj1)
